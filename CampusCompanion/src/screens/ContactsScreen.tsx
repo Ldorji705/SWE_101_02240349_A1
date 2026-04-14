@@ -3,10 +3,10 @@
 // It is part of the Campus Companion app to help students access key contact information.
 
 import { View, FlatList, StyleSheet } from 'react-native';
-import { CONTACTS } from '../data/contacts';
-import ContactItem from '../components/ContactItem';
+import { CONTACTS } from '../../data/contacts';
+import ContactItem from '../../components/ContactItem';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { RootStackParamList } from '../types/navigation';
+import { RootStackParamList } from '../../types/navigation';
 
 // Props type for the ContactsScreen
 type Props = {

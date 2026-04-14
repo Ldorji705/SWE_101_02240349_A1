@@ -4,7 +4,7 @@
 
 import { View, Text, StyleSheet } from 'react-native';
 import { RouteProp } from '@react-navigation/native';
-import { RootStackParamList } from '../types/navigation';
+import { RootStackParamList } from '../../types/navigation';
 
 // Props type for the ContactDetailsScreen
 type Props = {

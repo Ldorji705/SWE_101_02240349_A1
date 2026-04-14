@@ -3,7 +3,7 @@ import HomeScreen from '../screens/HomeScreen';
 import ContactsScreen from '../screens/ContactsScreen';
 import ScheduleScreen from '../screens/ScheduleScreen';
 import MapScreen from '../screens/MapScreen';
-import { TabParamList } from '../types/navigation';
+import { TabParamList } from '../../types/navigation';
 
 // Import icons
 import { Ionicons } from '@expo/vector-icons';
