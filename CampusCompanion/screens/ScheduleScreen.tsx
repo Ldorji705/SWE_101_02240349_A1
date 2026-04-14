@@ -8,9 +8,9 @@ export default function ScheduleScreen() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       {/* Weekly schedule displayed as a list of Text components */}
-      <Text style={styles.day}>Monday: SWE</Text>
-      <Text style={styles.day}>Tuesday: Mobile Dev</Text>
-      <Text style={styles.day}>Wednesday: AI</Text>
+      <Text style={styles.day}>Monday: SWE 201</Text>
+      <Text style={styles.day}>Tuesday: SDA 202</Text>
+      <Text style={styles.day}>Wednesday: DIS 303 </Text>
     </ScrollView>
   );
 }
